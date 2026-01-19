@@ -115,7 +115,7 @@ const COVERAGE_DATA = [
   {
     id: 'damage-clothing',
     group: "Benefits That Are Now Optional (Effective July 1, 2026)",
-    title: "Damage to Clothing, Glasses, etc.",
+    title: "Damage to Lost Items",
     summary: "Previously mandatory; now optional. Covers cost to replace clothing, glasses, hearing aids, and medical devices damaged in the accident.",
     mandatory: "Reasonable expenses are covered (if selected).",
     increased: "No optional increase available.",
