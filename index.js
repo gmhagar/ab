@@ -161,7 +161,7 @@ const COVERAGE_DATA = [
 function createCoverageCard(coverage) {
   const isMandatoryGroup = coverage.group.includes("Mandatory");
   const isNowOptionalGroup = coverage.group.includes("Now Optional");
-  const isStillOptionalGroup = coverage.group.includes("Remains Optional");  
+  const isStillOptionalGroup = coverage.group.includes("Remain Optional");  
   const hasOptionalIncrease = coverage.increased && !coverage.increased.toLowerCase().includes("no optional increase available");
 
   return `
