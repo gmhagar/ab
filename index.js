@@ -31,6 +31,16 @@ const COVERAGE_DATA = [
     icon: "🛌",
     tip: "This coverage is essential for those who live alone and may need professional help with daily tasks like bathing or dressing."
   },
+    {
+    id: 'exam-costs',
+    group: "Benefits That Are Now Optional (Effective July 1, 2026)",
+    title: "Cost of Examinations",
+    summary: "Previously mandatory; now optional. Covers cost of examinations required to assess injuries and determine benefit eligibility.",
+    mandatory: "Up to $2,500 (if selected).",
+    increased: "No optional increase available.",
+    icon: "📝",
+    tip: "These exams are often required by the insurer to verify the nature and extent of your disability."
+  },
   // GROUP: Benefits That Are Now Optional (Effective July 1, 2026)
   {
     id: 'income-replacement',
@@ -121,16 +131,6 @@ const COVERAGE_DATA = [
     increased: "No optional increase available.",
     icon: "👓",
     tip: "Expensive hearing aids or designer eyewear can be costly to replace out-of-pocket after a crash."
-  },
-  {
-    id: 'exam-costs',
-    group: "Benefits That Are Now Optional (Effective July 1, 2026)",
-    title: "Cost of Examinations",
-    summary: "Previously mandatory; now optional. Covers cost of examinations required to assess injuries and determine benefit eligibility.",
-    mandatory: "Up to $2,500 (if selected).",
-    increased: "No optional increase available.",
-    icon: "📝",
-    tip: "These exams are often required by the insurer to verify the nature and extent of your disability."
   },
   // GROUP: Benefits That Remain Optional
   {
