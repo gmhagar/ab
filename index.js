@@ -136,7 +136,7 @@ const COVERAGE_DATA = [
   {
     id: 'opt-dependant-care',
     group: "Benefits That Remain Optional",
-    title: "Optional Dependant Care Benefit",
+    title: "Dependant Care Benefit",
     summary: "Additional support for caring for dependants if you are employed at the time of the accident.",
     mandatory: "Not provided as a standard benefit.",
     increased: "Pays up to $75/week for first dependant + $25/others, max $150/week.",
@@ -146,7 +146,7 @@ const COVERAGE_DATA = [
   {
     id: 'opt-indexation',
     group: "Benefits That Remain Optional",
-    title: "Optional Indexation Benefit",
+    title: "Indexation Benefit",
     summary: "Ensures benefits and monetary limits are adjusted annually for inflation.",
     mandatory: "Not provided as a standard benefit.",
     increased: "Annual adjustment based on the Consumer Price Index (CPI).",
@@ -161,6 +161,7 @@ const COVERAGE_DATA = [
 function createCoverageCard(coverage) {
   const isMandatoryGroup = coverage.group.includes("Mandatory");
   const isNowOptionalGroup = coverage.group.includes("Now Optional");
+  const isStillOptionalGroup = coverage.group.includes("Remains Optional");  
   const hasOptionalIncrease = coverage.increased && !coverage.increased.toLowerCase().includes("no optional increase available");
 
   return `
@@ -175,12 +176,17 @@ function createCoverageCard(coverage) {
             <h3 class="font-bold text-[#003359] text-lg">${coverage.title}</h3>
             ${isMandatoryGroup ? `
               <span class="px-2 py-0.5 bg-[#006140] text-white text-[10px] font-bold uppercase rounded flex items-center">
-                <i data-lucide="shield-check" class="w-[10px] h-[10px] mr-1"></i> Mandatory Core
+                <i data-lucide="shield-check" class="w-[10px] h-[10px] mr-1"></i> Mandatory
               </span>
             ` : ''}
             ${isNowOptionalGroup ? `
               <span class="px-2 py-0.5 bg-[#007db3] text-white text-[10px] font-bold uppercase rounded flex items-center">
                 <i data-lucide="shield-alert" class="w-[10px] h-[10px] mr-1"></i> Now Optional
+              </span>
+            ` : ''}
+                ${isStillOptionalGroup ? `
+              <span class="px-2 py-0.5 bg-[#007db3] text-white text-[10px] font-bold uppercase rounded flex items-center">
+                <i data-lucide="shield-alert" class="w-[10px] h-[10px] mr-1"></i> Still Optional
               </span>
             ` : ''}
           </div>
