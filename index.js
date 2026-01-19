@@ -33,7 +33,7 @@ const COVERAGE_DATA = [
   },
     {
     id: 'exam-costs',
-    group: "Benefits That Are Now Optional (Effective July 1, 2026)",
+    group: "Benefits That Remain Mandatory",
     title: "Cost of Examinations",
     summary: "Previously mandatory; now optional. Covers cost of examinations required to assess injuries and determine benefit eligibility.",
     mandatory: "Up to $2,500 (if selected).",
