@@ -185,7 +185,7 @@ function createCoverageCard(coverage) {
               </span>
             ` : ''}
                 ${isStillOptionalGroup ? `
-              <span class="px-2 py-0.5 bg-[#007db3] text-white text-[10px] font-bold uppercase rounded flex items-center">
+              <span class="px-2 py-0.5 bg-[#FF8C11] text-white text-[10px] font-bold uppercase rounded flex items-center">
                 <i data-lucide="shield-alert" class="w-[10px] h-[10px] mr-1"></i> Still Optional
               </span>
             ` : ''}
