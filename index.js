@@ -36,7 +36,7 @@ const COVERAGE_DATA = [
     group: "Benefits That Remain Mandatory",
     title: "Cost of Examinations",
     summary: "Covers cost of examinations required to assess injuries and determine benefit eligibility.",
-    mandatory: "Up to $2,500 (if selected).",
+    mandatory: "Up to $2,500.",
     increased: "No optional increase available.",
     icon: "📝",
     tip: "These exams are often required by the insurer to verify the nature and extent of your disability."
