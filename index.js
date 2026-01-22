@@ -207,7 +207,7 @@ function createCoverageCard(coverage) {
             
             <div class="p-5 rounded-lg border ${hasOptionalIncrease || (!isMandatoryGroup && !isNowOptionalGroup) ? 'bg-[#FF8C11]/5 border-[#FF8C11]/20 shadow-sm' : 'bg-gray-50 border-gray-100 opacity-60'}">
               <h4 class="text-[10px] font-black uppercase tracking-widest mb-3 ${hasOptionalIncrease || (!isMandatoryGroup && !isNowOptionalGroup) ? 'text-[#FF8C11]' : 'text-gray-400'}">
-                Available Optionals
+                Available Options
               </h4>
               <p class="${hasOptionalIncrease || (!isMandatoryGroup && !isNowOptionalGroup) ? 'text-[#003359]' : 'text-gray-500'} text-sm leading-relaxed font-medium">
                 ${coverage.increased}
