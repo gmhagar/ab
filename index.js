@@ -14,14 +14,14 @@ const COVERAGE_DATA = [
   {
     id: 'med-rehab',
     group: "Benefits That Remain Mandatory",
-    title: "Medical and Rehabilitation Benefit",
+    title: "Medical, Rehabilitation, and Attendant Benefit",
     summary: "Covers the cost of reasonable and necessary medical and rehabilitation expenses that are not covered by OHIP or your group insurance plan.",
     mandatory: "For non-catastrophic injuries, the limit is $65,000. For minor injuries, the limit is $3,500.",
     increased: "Optional increase for non-catastrophic injuries to $130,000 or combined $1,000,000 with attendant care. Catastrophic injuries can add $1,000,000.",
     icon: "🏥",
     tip: "Note: Auto insurers are now 'first payor' for these expenses (except medication) before your private health plan."
   },
-  {
+ /* {
     id: 'attendant-care',
     group: "Benefits That Remain Mandatory",
     title: "Attendant Care Benefit",
@@ -30,7 +30,7 @@ const COVERAGE_DATA = [
     increased: "Optional increase for non-catastrophic to $72,000 or combined $1,000,000 with med/rehab. Catastrophic injuries can add $1,000,000.",
     icon: "🛌",
     tip: "This coverage is essential for those who live alone and may need professional help with daily tasks like bathing or dressing."
-  },
+  }, */
     {
     id: 'exam-costs',
     group: "Benefits That Remain Mandatory",
